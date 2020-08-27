@@ -18,7 +18,7 @@ namespace EmployeeManagement.Controllers
         private readonly IHostingEnvironment hostingEnvironment;
 
         // Inject IEmployeeRepository using Constructor Injection
-        public HomeController(IEmployeeRepository employeeRepository,IHostingEnvironment hostingEnvironment)
+        public HomeController(IEmployeeRepository employeeRepository, IHostingEnvironment hostingEnvironment)
         {
             _employeeRepository = employeeRepository;
             this.hostingEnvironment = hostingEnvironment;
